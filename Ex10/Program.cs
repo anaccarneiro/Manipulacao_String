@@ -32,7 +32,7 @@ namespace Ex10
 
             foreach (char carecteres in fraseB)
             {
-                if (fraseA.Contains(fraseB) && fraseB.Length == 2)
+                if (fraseA.Contains(fraseB))
                 {
                     cont++;
                 }
